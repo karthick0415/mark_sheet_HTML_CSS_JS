@@ -1,0 +1,176 @@
+    .container {
+        padding: 0 20px 20px 20px; 
+    }
+    .marks-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 5px;
+        color: rgba(81, 19, 19, 0.821);
+    }
+
+    .marks-table h4 {
+        margin: 0;
+        color: black;
+    }
+
+    .marks-table2 {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 0px;
+    }
+
+    .marks-table th,
+    .marks-table td {
+        border: 2px solid #ba8916;
+        padding: 5px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .marks-table23 td {
+        border: none;
+        padding: 3px;
+        font-size: 14px;
+    }
+
+    .marks-table td,
+    input {
+        color: black;
+        font-weight: bold;
+    }
+
+    #leftA {
+        text-align: start;
+    }
+
+    .marks-table th {
+        background-color: #ffeaba50;
+    }
+
+    .marks-table td {
+        background-color: #ffeaba50;
+    }
+
+    table {
+        border: 2px solid #ba8916;
+        border-bottom: none;
+    }
+    body {
+        margin: 0;
+    }
+
+    .bo {
+        background-image: url(./BG.png);
+        background-size: 60px;
+        width: 700px;
+        padding: 35px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* body content */
+    .main {
+        border: 5px solid rgba(81, 19, 19, 0.821);
+        background-image: url(./BG.png);
+        background-size: 60px;
+        width: 700px;
+        font-family: 'Times New Roman', Times, serif;
+        background-position: center;
+    }
+
+    .mainimg {
+        background-image: url(./logo18o.png);
+        background-size: 600px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .main2 {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* sr.no qr code */
+    .sr {
+        display: flex;
+        padding-left: 10px;
+    }
+
+    .sr1 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .qr {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    /* logo and institute curve  */
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .para p {
+        margin-top: -20px;
+        text-align: center;
+        color: rgba(81, 19, 19, 0.821);
+    }
+
+    /* table content */
+    .maintable h1 {
+        text-align: center;
+        color: #c29120;
+        margin: 0;
+    }
+
+    /* footer */
+    footer,
+    h5 {
+        color: rgba(81, 19, 19, 0.821);
+        text-align: center;
+        margin: 0;
+        padding-bottom: 3px;
+    }
+
+    .sign {
+        padding-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        color: rgba(81, 19, 19, 0.821);
+    }
+
+    .sign1 {
+        padding-left: 20px;
+        display: flex;
+        margin: 0;
+        color: rgba(81, 19, 19, 0.821);
+    }
+
+    .author p {
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 35px;
+        color: black;
+    }
+
+    input {
+        background: none;
+        border: none;
+        text-align: center;
+        width: 40px;
+    }
+
+    .inp {
+        background: none;
+        border: none;
+        text-align: center;
+        width: 150px;
+    }
