@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,37 +7,8 @@
 </head>
 <style>
     .container {
-        max-width: 1000px;
-        background-image: url(back.png);
-        background-size: 40px;
-        padding: 0 20px 20px 20px;
-        color: black;
+        padding: 0 20px 20px 20px; 
     }
-
-    .header,
-    .content,
-    .footer {
-        text-align: center;
-    }
-
-    .header {
-        margin-bottom: 20px;
-    }
-
-    .header img {
-        width: 80px;
-    }
-
-    .header h1 {
-        font-size: 24px;
-        margin: 5px 0;
-    }
-
-    .header h2 {
-        font-size: 18px;
-        margin: 5px 0;
-    }
-
     .marks-table {
         width: 100%;
         border-collapse: collapse;
@@ -60,7 +30,7 @@
     .marks-table th,
     .marks-table td {
         border: 2px solid #ba8916;
-        padding: 8px;
+        padding: 5px;
         text-align: center;
         font-size: 14px;
     }
@@ -83,13 +53,10 @@
 
     .marks-table th {
         background-color: #ffeaba50;
-
-
     }
 
     .marks-table td {
         background-color: #ffeaba50;
-
     }
 
     table {
@@ -179,7 +146,6 @@
         text-align: center;
         margin: 0;
         padding-bottom: 3px;
-
     }
 
     .sign {
@@ -208,19 +174,15 @@
     input {
         background: none;
         border: none;
-        scrollbar-width: none;
         text-align: center;
         width: 40px;
-        text-decoration: none;
     }
 
     .inp {
         background: none;
         border: none;
-        scrollbar-width: none;
         text-align: center;
-
-        width: 100px;
+        width: 150px;
     }
 </style>
 
@@ -232,7 +194,7 @@
                     <div class="sr1">
                         <div class="sr">
                             <h3>Sr.No.</h3>
-                            <h3 style="color: rgba(81, 19, 19, 0.821);">00000000</h3>
+                            <h3><input type="number"  style="color: rgba(81, 19, 19, 0.821); width: 110px; text-align: left;"  placeholder="Enter serial no"></h3>
                         </div>
                         <div class="qr"><img src="./qr.png" alt="" width="100px"></div>
                     </div>
@@ -255,7 +217,7 @@
                         <table class="marks-table">
                             <tr>
                                 <th colspan="2">Name of the Candidate<br>
-                                    <h4><input type="text" class="inp"></h4>
+                                    <h4><input type="text" class="inp" placeholder="Enter Name Here"></h4>
                                 </th>
                                 <th>Course name with Code <br>
                                     <h4>Diploma in Fire & Safety Management<br>DFS012</h4>
@@ -263,13 +225,13 @@
                             </tr>
                             <tr>
                                 <th>Reg. No.<br>
-                                    <h4><input type="text" class="inp"></h4>
+                                    <h4><input type="text" class="inp" placeholder="Enter Reg No Here"></h4>
                                 </th>
                                 <th>Enrollment No.<br>
-                                    <h4><input type="text" class="inp"></h4>
+                                    <h4><input type="text" class="inp" placeholder="Enter Enroll No Here"></h4>
                                 </th>
                                 <th>Authorized Training Centre Name with Code<br>
-                                    <h4><input type="text" class="inp"><br><input type="text" class="inp"></h4>
+                                    <h4><input type="text" class="inp" placeholder="Enter Center Name"><br><input type="text" class="inp" placeholder="Enter Center Code"></h4>
                                 </th>
                             </tr>
                             <tr></tr>
@@ -287,16 +249,16 @@
                             <tbody>
                                 <tr>
                                     <td>DFS012-101</td>
-                                    <td>Fire Science and Technology</td>
+                                    <td style="text-align: left;">Fire Science and Technology</td>
                                     <td>100</td>
-                                    <td><input type="number" id="theory1" value="00" oninput="calculateTotal()"></td>
+                                    <td><input type="number" id="theory1" value="00"oninput="calculateTotal()"></td>
                                     <td><input type="number" id="practical1" value="00" oninput="calculateTotal()"></td>
                                     <td><input type="text" id="total1" value="00" readonly></td>
                                     <td id="totalWords1" class="total-words">Zero Zero</td>
                                 </tr>
                                 <tr>
                                     <td>DFS012-102</td>
-                                    <td>Fire Prevention and Investigation</td>
+                                    <td style="text-align: left;">Fire Prevention and Investigation</td>
                                     <td>100</td>
                                     <td><input type="number" id="theory2" value="00" oninput="calculateTotal()"></td>
                                     <td><input type="number" id="practical2" value="00" oninput="calculateTotal()"></td>
@@ -304,7 +266,7 @@
                                 </tr>
                                 <tr>
                                     <td>DFS012-103</td>
-                                    <td>Fire Protection and Survey</td>
+                                    <td style="text-align: left;">Fire Protection and Survey</td>
                                     <td>100</td>
                                     <td><input type="number" id="theory3" value="00" oninput="calculateTotal()"></td>
                                     <td><input type="number" id="practical3" value="00" oninput="calculateTotal()"></td>
@@ -313,7 +275,7 @@
                                 </tr>
                                 <tr>
                                     <td>DFS012-104</td>
-                                    <td>Fire Extinction and Control</td>
+                                    <td style="text-align: left;">Fire Extinction and Control</td>
                                     <td>100</td>
                                     <td><input type="number" id="theory4" value="00" oninput="calculateTotal()"></td>
                                     <td><input type="number" id="practical4" value="00" oninput="calculateTotal()"></td>
@@ -322,7 +284,7 @@
                                 </tr>
                                 <tr>
                                     <td>DFS012-105</td>
-                                    <td>Industrial Safety Management</td>
+                                    <td style="text-align: left;">Industrial Safety Management</td>
                                     <td>100</td>
                                     <td><input type="number" id="theory5" value="00" oninput="calculateTotal()"></td>
                                     <td><input type="number" id="practical5" value="00" oninput="calculateTotal()"></td>
@@ -331,7 +293,7 @@
                                 </tr>
                                 <tr>
                                     <td>DFS012-106</td>
-                                    <td>Practical I</td>
+                                    <td style="text-align: left;">Practical I</td>
                                     <td>100</td>
                                     <td><input type="number" id="theory6" value="00" oninput="calculateTotal()"></td>
                                     <td><input type="number" id="practical6" value="00" oninput="calculateTotal()"></td>
@@ -340,7 +302,7 @@
                                 </tr>
                                 <tr>
                                     <td>DFS012-107</td>
-                                    <td>Practical II</td>
+                                    <td style="text-align: left;">Practical II</td>
                                     <td>100</td>
                                     <td><input type="number" id="theory7" value="00" oninput="calculateTotal()"></td>
                                     <td><input type="number" id="practical7" value="00" oninput="calculateTotal()"></td>
@@ -349,7 +311,7 @@
                                 </tr>
                                 <tr>
                                     <td>DFS012-108</td>
-                                    <td>Practical III</td>
+                                    <td style="text-align: left;">Practical III</td>
                                     <td>100</td>
                                     <td><input type="number" id="theory8" value="00" oninput="calculateTotal()"></td>
                                     <td><input type="number" id="practical8" value="00" oninput="calculateTotal()"></td>
@@ -367,7 +329,7 @@
                                 <td colspan="" id="leftA">
                                     <h4>In words</h4>
                                 </td>
-                                <td colspan="6" style="text-align: left;" id="gtotwrd">Zero Zero Zero</td>
+                                <td colspan="6" style="text-align: left;" id="gtotwrd"></td>
                             </tr>
                     </div>
                     </tbody>
@@ -381,7 +343,7 @@
                             <th>Grade</th>
                         </tr>
                         <tr>
-                            <td><input type="text" class="inp"></td>
+                            <td><input type="text" class="inp" placeholder="Enter Month & Year"></td>
                             <td>T5+P3=8</td>
                             <td id="result"></td>
                             <td id="percentage"></td>
@@ -444,7 +406,6 @@
             else if (percentage >= 70) grade = 'B+';
             else if (percentage >= 60) grade = 'B';
             else if (percentage >= 50) grade = 'C';
-            else if (percentage >= 40) grade = 'D';
             document.getElementById('grade').innerHTML = grade;
         }
         // dateofresult
@@ -495,5 +456,4 @@
         }
     </script>
 </body>
-
 </html>
